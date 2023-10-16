@@ -1,0 +1,522 @@
+.container {
+  display: flex;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
+#left-column {
+  flex: 1;
+  background-color:white;
+  /* Additional styles for the left column */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#right-column {
+  flex: 1;
+  background: linear-gradient(153.69deg, #1A96A7 0%, #56EFF8 35.95%, #56EFF8 72.99%, #1A96A7 98.44%);
+  /* Additional styles for the right column */
+  position: relative;
+  height:805px;
+}
+
+#left-column h1
+{
+  position: absolute;
+  width: 563px;
+  height: 198px;
+  left: 50px;
+  top: 223px;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 53px;
+  line-height: 123.7%;
+   /* or 66px */
+  color: #000000;
+}
+
+.highlight {
+  color: #16A6BA; /* Replace with your desired color */
+  /* Optionally, you can add additional styles like bold */
+}
+
+
+#left-column h5 
+{
+  position: absolute;
+  width: 557px;
+  height: 76px;
+  left: 50px;
+  top: 453px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  color: #B2BECD;
+
+}
+
+#button
+{
+  position: absolute;
+  width: 208px;
+  height: 56px;
+  left: 50px;
+  top: 605px;
+  background: #16A6BA;
+  border-radius: 7px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  color: #FFFFFF;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  /* Additional styles for the navbar */
+}
+
+.content {
+  margin-top: 50px;
+}
+
+.content img {
+  width: 753px; /* Adjust the width as needed */
+  height: 755px;
+}
+
+#left-column #navbar #logo
+{
+  position: absolute;
+  width: 36px;
+  height: 57px;
+  left: 40px;
+  top: 29px;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 80px;
+}
+
+.menu li:last-child {
+  margin-right: 20px;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Source Sans Pro';
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.menu li a.active {
+  background-color: white;
+  color: red;
+  margin-top: 500px;
+  margin-bottom: 500px;
+  margin-left: 0px;
+  margin-right: 0px;
+
+}
+
+.statistics
+{
+  background: #0F2027;
+  display:grid;
+  grid-gap: 10px;
+  width:100%;
+  height: 184px;
+  left: 10px;
+  top: 885px;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+}
+
+.column1 {
+  /* Additional styles for the columns */
+  left:10px;
+  color: white;
+  font-family: "Source Sans Pro";
+  
+}
+
+.column1 h2{
+  position: absolute;
+  width: 25%;
+  height: 30px;
+  top: 800px;
+  font-weight: 700;
+  font-size: 42px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.column1 .small{
+  position: absolute;
+  width: 25%;
+  height: 70px;
+  top: 900px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  color: #B2BECD;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.column2 {
+  color: white;
+  font-family: "Source Sans Pro";
+  justify-content: center;
+  align-items: center;
+}
+
+.column2 h2{
+  position: absolute;
+  width: 25%;
+  height: 30px;
+  top: 800px;
+  font-weight: 700;
+  font-size: 42px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.column2 .small{
+  position: absolute;
+  width: 25%;
+  height: 70px;
+  top: 900px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  color: #B2BECD;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.column3{
+  color: white;
+  font-family: "Source Sans Pro";
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.column3 h2{
+  position: absolute;
+  width: 25%;
+  height: 30px;
+  top: 800px;
+  font-weight: 700;
+  font-size: 42px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.column3 .small{
+  position: absolute;
+  width: 25%;
+  height: 70px;
+  top: 900px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  color: #B2BECD;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.column4 {
+  color: white;
+  font-family: "Source Sans Pro";
+  justify-content: center;
+  align-items: center;
+
+}
+
+.column4 h2{
+  position: absolute;
+  width: 25%;
+  height: 30px;
+  top: 800px;
+  font-weight: 700;
+  font-size: 42px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.column4 .small{
+  position: absolute;
+  width: 25%;
+  height: 70px;
+  top: 900px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  color: #B2BECD;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main h1
+{
+  position: absolute;
+  flex: 1;
+  top: 1075px;
+  text-align: center;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight:bolder;
+  font-size: 53px;
+  line-height: 123.7%;
+/* identical to box height, or 66px */
+  color: #000000;
+
+}
+
+.features
+{
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 25px; 
+}
+
+
+.feature {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; /* Optional: Add some spacing between features */
+}
+
+.features .feature img {
+  margin-right: 10px; /* Adjust the spacing between the image and text */
+  max-width: 100%;
+  height: auto;
+}
+
+.features .feature {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #F6F6F6;
+  border-radius: 15px;
+  padding: 20px;
+  width: 275px;
+  height: 100px;
+  margin: 10px;
+}
+
+.features #f1
+{
+  display: inline-block;
+  top: 1300px;
+  width: 275px;
+  height: 100px;
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: #F6F6F6;
+  border-radius: 15px;
+}
+
+.features #f2
+{
+  display: inline-block;
+  top: 1300px;
+  width: 275px;
+  height: 100px;
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: #F6F6F6;
+  border-radius: 15px;
+}
+
+.features #f3
+{
+  display: inline-block;
+  top: 1300px;
+  width: 275px;
+  height: 100px;
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: #F6F6F6;
+  border-radius: 15px;
+}
+
+.features #f4
+{
+  display: inline-block;
+  top: 1300px;
+  width: 275px;
+  height: 100px;
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: #F6F6F6;
+  border-radius: 15px;
+}
+
+.Heading {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900; /* Semibold */
+  font-size: 45px;
+  text-align: left;
+  margin: 181px 121px 0; /* Adjust the margin-top value to bring it down */
+  color: #333; /* Text color */
+  /* Other CSS properties you may want to add */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  position: relative;
+}
+
+
+.rectangle {
+  width: 1800px;
+  height: 350px;
+  top: 1888px;
+  left: 55px;
+  right:55px;
+  position: absolute; /* Position the rectangle absolutely */
+  background-color:#1A96A7; /* Rectangle background color */
+  border-radius: 30px; /* Border radius to create rounded corners */
+  display: flex;
+  justify-content: space-between;
+}
+.square1 {
+  width: 452px;
+  height: 382px;
+  top: 1752px;
+  left: 90px;
+  border-radius: 20px;
+  position: absolute; /* Position the rectangle absolutely */
+  background-color:#eaeaea; /* Rectangle background color */
+  border-radius: 30px; /* Border radius to create rounded corners */
+  align-items: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+
+}
+.square2 {
+  width: 552px;
+  height: 400.52px;
+  top: 1707px;
+  left: 702px;
+  border-radius: 20px;
+  position: absolute; /* Position the rectangle absolutely */
+  background-color:white; /* Rectangle background color */
+  border-radius: 30px; /* Border radius to create rounded corners */
+  align-items: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+
+}
+
+.square3 {
+  width: 452px;
+  height: 382px;
+  top: 1752px;
+  left: 1360px;
+  border-radius: 20px;
+  position: absolute; /* Position the rectangle absolutely */
+  background-color:#eaeaea; /* Rectangle background color */
+  border-radius: 30px; /* Border radius to create rounded corners */
+  align-items: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+
+}
+
+
+.contain .square1 .course1content
+{
+  left: 802px;
+  width:354px;
+  height: 211px;
+  padding-left: 50px;
+  top: 1773px;
+  justify-content: center;
+}
+
+.contain .square2 .course2content
+{
+  left: 802px;
+  width:354px;
+  height: 211px;
+  padding-left: 50px;
+  top: 1773px;
+  justify-content: center;
+}
+
+.contain .square3 .course3content
+{
+  left: 802px;
+  width:354px;
+  height: 211px;
+  padding-left: 50px;
+  top: 1773px;
+  justify-content: center;
+}
+
+
